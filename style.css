@@ -1,0 +1,201 @@
+#divBusca{
+  background-color: black ;
+  border-radius: 20px;
+  width: 267px;
+}
+#Busca{
+  float: left;
+  background-color: transparent;
+  padding-left: 3px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: auto;
+}
+#miniatura{
+  width: 180px;
+  border-radius:20px;
+  height: 265px;
+}
+#miniaturaLinha2{
+  margin-top: 135px;
+  width: 180px;
+  border-radius:20px;
+  height: 265px;
+}
+#miniatura2{
+  height: 320px;
+  border-radius: 20px;
+}
+.dataLinha2{
+  top: 465px;
+  color: rgb(163, 152, 152);
+}
+.titLinha2{
+  top: 390px;
+}
+.descricao{
+  background-color: rgba(0,0,0,0.6);
+  width: 1423px;
+  margin: 0px;
+}
+.TitDescr{
+    position: relative;
+    text-align: center;
+    font-size: 40px; 
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color:rgb(255, 255, 255);
+}
+.textDescr{
+    position: relative;
+    text-align: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    width: 70%;
+    left: 15%;
+}
+.indicacao{
+    display: flex;
+    position: relative;
+    background-color: rgba(0,0,0,0.6);
+    width: 1423px;
+    height: 880px;
+}
+.minFilme{
+  position: relative;
+  display: flex;
+}
+.EP{
+  font-size: 30px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background-color: rgba(0,0,0,0.8);
+  width: 1423px;
+  height: 70px;
+  margin-top: 1px;
+}
+label{
+  margin: 20px;
+  position: absolute;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 180px;
+  color:rgb(255, 255, 255);
+  top: 255px;
+}
+.data{
+  color: rgb(163, 152, 152);
+ top: 330px;
+ white-space: nowrap;
+}
+.EmAlta, .Classicos, .Anime, .Serie{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.Categoria{
+  font-size: 34px;
+  mal
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  margin-left: 8%;
+  color:rgb(255, 255, 255);
+  padding: 0%;
+}
+.filme{
+  position: relative;
+  justify-content: center;
+  width: 1423px;
+  display: flex;
+  background-color: rgba(0,0,0,0.6);
+}
+.VoltaAvancar{
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  background-color: rgba(0,0,0,0.8);
+  width: 1423px;
+}
+#inicioFilme{
+  position: relative;
+  display: flex;
+}
+.InformacaoFilme{
+  display: flex;
+  background-color: rgba(0,0,0,0.8);
+  width: 1423px;
+}
+.infoFilme{
+  margin-left: 4%;
+  font-size: 25px;
+  color: rgb(255,255, 255);
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+.div1{
+  margin-top: 400px;
+  background-color: rgba(0,0,0,0.6);
+  height: 850px;
+  width: 1423px;
+}
+.div2, .div3, .div4{
+  background-color: rgba(0,0,0,0.6);
+  height: 850px;
+  width: 1423px;
+}
+.intermediaria{
+  background-color: rgba(0,0,0,0.6);
+  height: 200px;
+  width: 1423px;
+}
+body{
+    list-style-type: none;
+    background: url("imagens/FotoDeFundo.jpg") center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+}
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: rgb(150,10,10);
+    height: 8vh;
+    width: min(1423px);
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  .nav-list li {
+   letter-spacing: 3px;
+    margin-left: 32px;
+    color: rgb(0, 0, 0);
+    position: 5s;
+    border-radius: 8px;
+    width: 65px;
+  }
+  .nav-list li:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(225, 225, 236);
+  }
